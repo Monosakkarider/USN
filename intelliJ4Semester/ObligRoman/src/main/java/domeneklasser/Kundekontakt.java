@@ -3,7 +3,6 @@ package domeneklasser;
 import java.util.Date;
 
 public class Kundekontakt {
-
     private int kundenr;
     private Date dato;
     private String beskrivelse;

@@ -1,8 +1,17 @@
 package com.example.demosceneskifterihundremeterskogen;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -11,7 +20,7 @@ public class HelloApplication extends Application {
 
     private Stage vindu;
     private Scene scene1, scene2;
-    private TabelView tabell;
+    private TableView tabell;
     private TextField txtNavn, txtAdresse, txtTelefon;
     //ObservableList for person-objecter:
     private ObservableList<Person> data = FXCollections.observableArrayList(
