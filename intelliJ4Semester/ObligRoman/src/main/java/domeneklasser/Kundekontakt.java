@@ -3,17 +3,17 @@ package domeneklasser;
 import java.util.Date;
 
 public class Kundekontakt {
-    private int kundenr;
+    private String kundenr;
     private Date dato;
     private String beskrivelse;
 
-    public Kundekontakt(int kundenr, Date dato, String beskrivelse) {
+    public Kundekontakt(String kundenr, Date dato, String beskrivelse) {
         this.kundenr = kundenr;
         this.dato = dato;
         this.beskrivelse = beskrivelse;
     }
 
-    public int getKundenr() {
+    public String getKundenr() {
         return kundenr;
     }
 
@@ -25,7 +25,7 @@ public class Kundekontakt {
         return beskrivelse;
     }
 
-    public void setKundenr(int kundenr) {
+    public void setKundenr(String kundenr) {
         this.kundenr = kundenr;
     }
 

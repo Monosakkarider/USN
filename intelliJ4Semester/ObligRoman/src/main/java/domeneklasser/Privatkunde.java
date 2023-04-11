@@ -4,7 +4,7 @@ public class Privatkunde extends Kunde{
 
     private String butikk;
 
-    public Privatkunde(int kundenr, String kundenavn, String butikk) {
+    public Privatkunde(String kundenr, String kundenavn, String butikk) {
         super(kundenr, kundenavn);
         this.butikk = butikk;
     }

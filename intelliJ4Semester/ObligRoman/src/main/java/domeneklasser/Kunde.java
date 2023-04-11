@@ -1,15 +1,15 @@
 package domeneklasser;
 
 public class Kunde {
-    private int kundenr;
+    private String kundenr;
     private String kundenavn;
 
-    public Kunde(int kundenr, String kundenavn) {
+    public Kunde(String kundenr, String kundenavn) {
         this.kundenr = kundenr;
         this.kundenavn = kundenavn;
     }
 
-    public int getKundenr() {
+    public String getKundenr() {
         return kundenr;
     }
 
@@ -17,7 +17,7 @@ public class Kunde {
         return kundenavn;
     }
 
-    public void setKundenr(int kundenr) {
+    public void setKundenr(String kundenr) {
         this.kundenr = kundenr;
     }
 
