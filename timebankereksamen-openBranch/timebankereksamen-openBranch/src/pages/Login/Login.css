@@ -1,0 +1,27 @@
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.auth{
+  padding-top: 100px;
+  width: 75%;
+  max-width: 400px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.login_input{
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.login_button{
+  padding: 10px 0;
+  width: 30%;
+}

@@ -1,0 +1,35 @@
+.crudMain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    justify-content: center;
+}
+.crudUpdate{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5em;
+}
+.crudUpdateFirst{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5em;
+    width: 100%;
+}
+.crudProdDetails{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+}
+.crudDelete{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5em;
+}
+.crudDeleteFirst{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5em;
+    width: 100%;
+}

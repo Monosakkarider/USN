@@ -16,7 +16,7 @@ public class Kontroll {
 	try {
             forbindelse = DriverManager.getConnection(databasenavn,"root","passord");
 		} catch(Exception e) {                    
-            throw new Exception("Kan ikke oppnå kontakt med databasen");                        
+            throw new Exception("Kan ikke oppnï¿½ kontakt med databasen");                        
 		}            
     }
     
@@ -38,14 +38,14 @@ public class Kontroll {
     	try {
     		utsagn = forbindelse.createStatement();
     		resultat = utsagn.executeQuery(sql);
-    	}catch(Exception e) {throw new Exception("Kan ikke åpne databasetabell");}
+    	}catch(Exception e) {throw new Exception("Kan ikke Ã¥pne databasetabell");}
     	return resultat;
     }
     
-    public void oppdaterKunde(String knr, String fnavn, String enavn, String adresse, String pnr, String kjønn) throws Exception {
+    public void oppdaterKunde(String knr, String fnavn, String enavn, String adresse, String pnr, String kjÃ¸nn) throws Exception {
     	int kundenr = Integer.parseInt(knr);
     	String sqlsetning = "INSERT INTO hobbyhuset.kunde VALUES(" + kundenr + ",'" + fnavn + "','" 
-    			+ enavn + "','" + adresse + "','" + pnr + "','" + kjønn + "');";
+    			+ enavn + "','" + adresse + "','" + pnr + "','" + kjÃ¸nn + "');";
     	System.out.println(sqlsetning);
     	try {
     		Statement utsagn = forbindelse.createStatement();

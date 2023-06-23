@@ -1,0 +1,7 @@
+nr;navn;kredit;tlf
+nr;navn;grense;tlf
+dada;dada;dada;dada
+1;1;1;1
+hei;hei;hei;hei
+ost;ost;ost;ost
+1337;Roman;2;3

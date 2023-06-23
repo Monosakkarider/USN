@@ -1,0 +1,92 @@
+.productPage {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.productPageProductHighlight {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-left: 6em;
+    margin-top:2em;
+    align-items: center;
+}
+
+.productPageProductInfo {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top:-1em;
+}
+
+.productPageTitle {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.productPageImg {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.productPageSecondaryImg {
+    object-fit: cover; 
+}
+
+.productPageImg2:hover {
+    cursor: pointer;
+    border:1px solid black;
+}
+
+.productPagePrice {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.productPageDescription {
+    font-weight: 600;
+    margin-top: 1em;
+    width: 40%;
+}
+
+.productPageCategory {
+    font-weight: 600;
+    margin-top: 1em;
+    width: 40%;
+}
+
+.productPageAddToCart {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-start;
+    background-color: var(--color-lightgreen-200);
+    border:0;
+    margin-right: 2em;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.productPageImg2 {
+    width: 90px;
+    height: 100px;
+    margin:2px;
+    border:1px solid whitesmoke;
+}
+
+.productPageAddToCart:active {
+    background-color: #3e8e41;    
+    transform: translateY(1px);
+}
+
+.productPageAddToCart:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

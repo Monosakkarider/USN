@@ -1,0 +1,17 @@
+.registrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.registrering_input{
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.registrer_button{
+  padding: 10px 0;
+  width: 30%;
+}

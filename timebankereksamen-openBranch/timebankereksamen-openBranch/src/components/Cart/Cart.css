@@ -1,0 +1,110 @@
+.cartMain {
+    position: absolute;    
+    right: 20px;
+    top: 90px;
+    margin-right: 1em;
+    background-color: whitesmoke;
+    border:1px solid #000;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    z-index: 10; 
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.cartTitle {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 2em;
+}
+.cartImage {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    object-fit: cover;
+    justify-self: flex-start;
+    border: 1px solid black;
+  
+}
+.cartItemTitle {   
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.cartItemDescription {
+    display:flex;
+    font-size: 1.2em;
+
+}
+.cartItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+.cartItemPrice {
+    display:flex;
+    justify-self: flex-end;
+
+}
+.cartItemTitleDescriptionPrice {
+    display: flex;
+    flex-direction: column;
+    width: 157px;
+}
+.cartQuantityUpdater {
+    display: flex;
+    height: 20px;
+    align-self: center;
+    
+}
+.cartQuantity {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cartItemDelete {
+    display: flex;
+    flex: 1;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.cartToCheckout{
+    display: flex;
+    justify-content: center;
+}
+.cartEmpty{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.cartEmptyText {
+    display: flex;
+    color: red;
+    cursor:pointer;
+    font-size: 15px;
+    width: 140px;
+    justify-content: flex-end;
+    
+}
+.cartEmptyText:hover{
+    text-decoration: underline;
+    color: red;
+}
+.cartTotal {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+

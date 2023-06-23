@@ -1,0 +1,17 @@
+.categoryMain {
+    display: flex;
+    padding-top: 75px;
+    align-items: flex-start;
+    padding-left: 2em;
+    flex-direction: column;
+}
+.categoryTitle {
+    text-align: center;
+    width: 100%;
+}
+.categoryElements {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+    padding-left: 3.5em;
+}

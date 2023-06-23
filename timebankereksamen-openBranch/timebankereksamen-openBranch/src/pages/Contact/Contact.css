@@ -1,0 +1,31 @@
+.contact{
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contactForm{
+    background-color: var(--color-lightgreen-200);
+    border-radius: 5%;
+    padding: 2em 3em;
+}
+.textAreaContact{
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 186px;
+}
+.zip{
+    width:40px;
+    margin-right: 0.89em;
+    margin-bottom: 0.7em;
+}
+.location{
+    width:103px;
+    margin-bottom: 0.7em;
+}
+.textBoxContact{
+    margin-bottom: 0.7em;
+}

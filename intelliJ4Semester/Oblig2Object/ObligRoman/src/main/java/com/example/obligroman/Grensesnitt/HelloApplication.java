@@ -1,8 +1,8 @@
 package com.example.obligroman.Grensesnitt;
-
-
 import com.example.obligroman.Kontroll.Kontroll;
 import com.example.obligroman.domeneklasser.*;
+
+
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;

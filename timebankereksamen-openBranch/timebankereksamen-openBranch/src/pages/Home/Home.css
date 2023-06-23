@@ -1,0 +1,46 @@
+.homePage {
+    padding-top: 90px;
+    flex-direction: column;
+    display: flex;
+}
+
+.homePageBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.homePageBannerLink{
+    width:60%;
+}
+
+.homeBannerImg{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;  
+}
+
+.seMer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4em;
+}
+
+.seMerKnapp {
+    background-color: var(--color-lightgreen-200);
+    border-radius: 4px;
+    border-width:0;
+    width: 100px;
+    height: 30px;
+    font-size:20px;
+}
+
+.seMerKnapp:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}

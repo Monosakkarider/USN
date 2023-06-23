@@ -1,0 +1,25 @@
+.requestImport{
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.requestImportForm{
+    background-color: var(--color-lightgreen-200);
+    padding: 2em 3em;
+    border-radius: 5%;
+}
+
+.textBoxImport{
+    margin-bottom: 0.7em; 
+}
+
+.textAreaImport{   
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 186px;
+}

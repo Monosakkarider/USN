@@ -1,0 +1,79 @@
+.Header {
+    display: flex;
+    flex : 1;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    z-index: 2;
+  }
+  .headerLogo {
+    justify-content: flex-start;
+    padding: 1em;
+    padding-right: 0;  
+  }
+  .Logo {
+    width: 15em;
+  }
+  .headerMiddleSection {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .navSearchbar {
+  width: 21em;
+  }
+  .headerNavBar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: center;
+    align-items: center;
+  }
+  .topRight { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    margin-right: 1em;
+  }
+  .Logo:hover{
+    cursor:pointer;
+  }
+  a {
+    margin: 1em;
+    margin-left: 0em;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .headerCart {
+    display: flex;    
+  }
+  .cartTotalItems {
+    position: absolute;
+    background-color: var(--color-lightgreen-200);
+    transform: translate(-60%, 15%);
+    color: black;
+    width: 1.2em;
+    height: 1.2em;
+    font-weight: 600;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerLinkOne, .headerLinkTwo, .headerLinkThree,.headerLinkFour,.headerLinkFive,.headerLinkSix {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+  }
