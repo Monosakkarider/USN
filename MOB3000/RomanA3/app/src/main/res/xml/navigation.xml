@@ -1,0 +1,17 @@
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<composable
+    android:id="@+id/destination1"
+    android:name="com.example.Destination1" />
+
+<composable
+    android:id="@+id/destination2"
+    android:name="com.example.Destination2" />
+
+<composable
+    android:id="@+id/destination3"
+    android:name="com.example.Destination3" />
+
+</navigation>

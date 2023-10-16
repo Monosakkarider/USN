@@ -1,0 +1,174 @@
+2023-09-12 13:38:03.776 INFO  <Thread-35> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Dispatching started for transformation [dim_timeMedDummy]
+2023-09-12 13:38:03.944 INFO  <dim_timeMedDummy - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 13:38:03.968 INFO  <dim_timeMedDummy - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:04.191 INFO  <dim_timeMedDummy - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:04.196 INFO  <dim_timeMedDummy - Select values> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:04.203 INFO  <dim_timeMedDummy - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:41:22.572 INFO  <Thread-67> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Dispatching started for transformation [dim_timeMedDummy]
+2023-09-12 13:41:22.615 INFO  <dim_timeMedDummy - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:41:22.617 INFO  <dim_timeMedDummy - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 13:41:22.728 INFO  <dim_timeMedDummy - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:41:22.741 INFO  <dim_timeMedDummy - Select values> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:41:22.774 INFO  <dim_timeMedDummy - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:56:26.922 INFO  <Thread-113> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Dispatching started for transformation [streamLookupSalesCustomer]
+2023-09-12 13:56:26.948 INFO  <streamLookupSalesCustomer - Customer_info_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 13:56:26.948 INFO  <streamLookupSalesCustomer - Sales_data_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 13:56:27.143 INFO  <streamLookupSalesCustomer - Stream lookup> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=8, W=4, U=0, E=0)
+2023-09-12 13:56:27.173 INFO  <streamLookupSalesCustomer - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:01:12.494 INFO  <Thread-139> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:01:12.502 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2023-09-12 14:01:12.521 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2023-09-12 14:01:12.537 INFO  <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2023-09-12 14:02:54.611 INFO  <Thread-151> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:02:54.627 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:02:54.631 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  !Calculator.ErrorInStepRunning : 
+The 'A-B%' function only works on numeric data
+!
+2023-09-12 14:02:54.633 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Uventet feil
+2023-09-12 14:02:54.634 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  org.pentaho.di.core.exception.KettleStepException: 
+Error while running the step 
+
+The 'A-B%' function only works on numeric data
+
+
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:183)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleValueException: 
+The 'A-B%' function only works on numeric data
+
+	at org.pentaho.di.core.row.ValueDataUtil.percent2(ValueDataUtil.java:1061)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:297)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	... 2 more
+
+2023-09-12 14:02:54.635 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-12 14:02:54.636 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation detected one or more steps with errors.
+2023-09-12 14:02:54.636 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation is killing the other steps!
+2023-09-12 14:02:54.699 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:02:54.701 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:02:54.764 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:03:43.457 INFO  <Thread-163> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:03:43.470 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:03:43.477 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:03:43.509 INFO  <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:04:40.037 INFO  <Thread-175> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:04:40.044 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:04:40.046 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  !Calculator.ErrorInStepRunning : 
+The 'A-B%' function only works on numeric data
+!
+2023-09-12 14:04:40.047 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Uventet feil
+2023-09-12 14:04:40.047 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  org.pentaho.di.core.exception.KettleStepException: 
+Error while running the step 
+
+The 'A-B%' function only works on numeric data
+
+
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:183)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleValueException: 
+The 'A-B%' function only works on numeric data
+
+	at org.pentaho.di.core.row.ValueDataUtil.percent2(ValueDataUtil.java:1061)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:297)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	... 2 more
+
+2023-09-12 14:04:40.048 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-12 14:04:40.049 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation detected one or more steps with errors.
+2023-09-12 14:04:40.050 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation is killing the other steps!
+2023-09-12 14:04:40.120 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:04:40.121 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:04:40.177 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:05:07.513 INFO  <Thread-187> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:05:07.525 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:05:07.527 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  !Calculator.ErrorInStepRunning : 
+The 'A-B%' function only works on numeric data
+!
+2023-09-12 14:05:07.529 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Uventet feil
+2023-09-12 14:05:07.530 ERROR <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  org.pentaho.di.core.exception.KettleStepException: 
+Error while running the step 
+
+The 'A-B%' function only works on numeric data
+
+
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:183)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleValueException: 
+The 'A-B%' function only works on numeric data
+
+	at org.pentaho.di.core.row.ValueDataUtil.percent2(ValueDataUtil.java:1061)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:297)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	... 2 more
+
+2023-09-12 14:05:07.530 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-12 14:05:07.531 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation detected one or more steps with errors.
+2023-09-12 14:05:07.531 WARN  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Transformation is killing the other steps!
+2023-09-12 14:05:07.596 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:05:07.597 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:05:07.636 ERROR <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Errors detected!
+2023-09-12 14:05:20.406 INFO  <Thread-197> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:05:20.417 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:05:20.425 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:05:20.428 INFO  <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:05:40.786 INFO  <Thread-207> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:05:40.794 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:05:40.805 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:05:40.835 INFO  <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:07:39.483 INFO  <Thread-219> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Dispatching started for transformation [MoneyDiscountCalk]
+2023-09-12 14:07:39.499 INFO  <MoneyDiscountCalk - Data grid> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:07:39.508 INFO  <MoneyDiscountCalk - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:07:39.537 INFO  <MoneyDiscountCalk - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\MoneyDiscountCalk.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:07:52.839 INFO  <Thread-228> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Dispatching started for transformation [streamLookupSalesCustomer]
+2023-09-12 14:07:52.850 INFO  <streamLookupSalesCustomer - Sales_data_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:07:52.850 INFO  <streamLookupSalesCustomer - Customer_info_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:07:53.059 INFO  <streamLookupSalesCustomer - Stream lookup> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=8, W=4, U=0, E=0)
+2023-09-12 14:07:53.094 INFO  <streamLookupSalesCustomer - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:08:15.178 INFO  <Thread-241> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Dispatching started for transformation [streamLookupSalesCustomer]
+2023-09-12 14:08:15.192 INFO  <streamLookupSalesCustomer - Sales_data_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:08:15.193 INFO  <streamLookupSalesCustomer - Customer_info_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:08:15.402 INFO  <streamLookupSalesCustomer - Stream lookup> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=8, W=4, U=0, E=0)
+2023-09-12 14:08:15.418 INFO  <streamLookupSalesCustomer - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:08:41.533 INFO  <Thread-255> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Dispatching started for transformation [streamLookupSalesCustomer]
+2023-09-12 14:08:41.542 INFO  <streamLookupSalesCustomer - Customer_info_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:08:41.542 INFO  <streamLookupSalesCustomer - Sales_data_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:08:41.734 INFO  <streamLookupSalesCustomer - Stream lookup> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=8, W=4, U=0, E=0)
+2023-09-12 14:08:41.766 INFO  <streamLookupSalesCustomer - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:09:01.212 INFO  <Thread-268> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Dispatching started for transformation [streamLookupSalesCustomer]
+2023-09-12 14:09:01.221 INFO  <streamLookupSalesCustomer - Sales_data_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:09:01.224 INFO  <streamLookupSalesCustomer - Customer_info_stream> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:09:01.435 INFO  <streamLookupSalesCustomer - Stream lookup> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=8, W=4, U=0, E=0)
+2023-09-12 14:09:01.466 INFO  <streamLookupSalesCustomer - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\streamLookupSalesCustomer.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:15:50.003 INFO  <Thread-292> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Dispatching started for transformation [dim_timeMedDummy]
+2023-09-12 14:15:50.044 INFO  <init of Table output.0 (Thread-295)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Connected to database [ConnectSpoon] (commit=1000)
+2023-09-12 14:15:50.058 INFO  <dim_timeMedDummy - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 14:15:50.137 INFO  <dim_timeMedDummy - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:15:50.176 INFO  <dim_timeMedDummy - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:15:50.186 INFO  <dim_timeMedDummy - Select values> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:20:48.810 INFO  <Thread-322> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Dispatching started for transformation [dim_timeMedDummy]
+2023-09-12 14:20:48.824 INFO  <dim_timeMedDummy - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 14:20:48.833 INFO  <dim_timeMedDummy - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:20:48.885 INFO  <dim_timeMedDummy - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:20:48.890 INFO  <dim_timeMedDummy - Select values> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:20:48.894 INFO  <dim_timeMedDummy - Dummy (do nothing)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\4Forelesning\dim_timeMedDummy.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:22:16.856 INFO  <Thread-344> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-12 14:22:16.898 INFO  <init of Table output.0 (Thread-348)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-12 14:22:16.905 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 14:22:16.913 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:22:16.931 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:22:19.168 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=3660, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:23:59.204 INFO  <Thread-356> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-12 14:23:59.227 INFO  <init of Table output.0 (Thread-360)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-12 14:23:59.232 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2023-09-12 14:23:59.251 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2023-09-12 14:23:59.282 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2023-09-12 14:23:59.318 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2023-09-12 14:24:36.096 INFO  <Thread-367> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-12 14:24:36.124 INFO  <init of Table output.0 (Thread-371)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-12 14:24:36.130 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 14:24:36.139 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:24:36.176 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:24:37.977 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=3660, R=3660, W=3660, U=0, E=0)

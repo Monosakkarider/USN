@@ -1,0 +1,564 @@
+2023-09-11 12:57:17.749 INFO  <Thread-30> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-11 12:57:17.799 INFO  <init of Table output.0 (Thread-32)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 12:57:17.938 INFO  <Transformation 1 - Table input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-11 12:57:17.942 INFO  <Transformation 1 - Table input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=1587, O=0, R=0, W=1587, U=0, E=0)
+2023-09-11 12:57:19.195 INFO  <Transformation 1 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=1587, R=1587, W=1587, U=0, E=0)
+2023-09-11 13:22:25.363 INFO  <ModalContext> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1]
+2023-09-11 13:22:25.394 INFO  <C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 13:22:25.889 INFO  <C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 13:22:25.891 INFO  <C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1 - dummy> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=629, W=628, U=0, E=0)
+2023-09-11 13:24:17.141 INFO  <ModalContext> [/Transformation 2.ktr]  Dispatching started for transformation [/Transformation 2]
+2023-09-11 13:24:17.152 INFO  </Transformation 2 - CSV file input> [/Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 13:24:17.671 INFO  </Transformation 2 - CSV file input> [/Transformation 2.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 13:24:17.670 INFO  </Transformation 2 - dummy> [/Transformation 2.ktr]  Finished processing (I=0, O=0, R=716, W=715, U=0, E=0)
+2023-09-11 13:31:26.188 INFO  <Thread-60> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 13:31:26.206 INFO  <init of Table output.0 (Thread-62)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 13:31:26.214 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 13:31:26.222 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Uventet feil
+2023-09-11 13:31:26.223 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM sales
+
+Table 'sampledata.sales' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sampledata.sales' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 13:31:26.225 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=533, O=0, R=0, W=531, U=0, E=0)
+2023-09-11 13:31:26.227 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 13:31:26.229 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 13:31:26.231 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 13:31:26.604 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 13:31:26.647 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 13:31:26.648 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 13:38:25.296 INFO  <ModalContext> [/Transformation 3.ktr]  Dispatching started for transformation [/Transformation 3]
+2023-09-11 13:38:25.812 INFO  </Transformation 3 - dummy> [/Transformation 3.ktr]  Finished processing (I=0, O=0, R=606, W=605, U=0, E=0)
+2023-09-11 13:38:25.814 INFO  </Transformation 3 - Generate rows Dim_time> [/Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 13:45:08.502 INFO  <ModalContext> [/Transformation 3.ktr]  Dispatching started for transformation [/Transformation 3]
+2023-09-11 13:45:09.027 INFO  </Transformation 3 - dummy> [/Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2023-09-11 13:45:09.031 INFO  </Transformation 3 - Generate rows Dim_time> [/Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 13:48:32.509 INFO  <Thread-94> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 13:48:32.541 INFO  <init of Table output.0 (Thread-98)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 13:48:32.558 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 13:48:32.566 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 13:48:32.578 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 13:48:32.579 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM null
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 13:48:32.582 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 13:48:32.582 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 13:48:32.583 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 13:48:32.584 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=93, W=92, U=0, E=0)
+2023-09-11 13:48:32.667 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:48:32.669 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:48:32.930 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:50:45.794 INFO  <Thread-113> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 13:50:45.821 INFO  <init of Table output.0 (Thread-117)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 13:50:45.827 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 13:50:45.847 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 13:50:45.863 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 13:50:45.864 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM null
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 13:50:45.865 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=212, W=211, U=0, E=0)
+2023-09-11 13:50:45.866 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 13:50:45.868 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:50:45.869 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:50:45.917 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 13:50:45.941 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 13:50:45.941 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 14:05:22.054 INFO  <Thread-124> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 14:05:22.078 INFO  <init of Table output.0 (Thread-128)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 14:05:22.085 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 14:05:22.113 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 14:05:22.113 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM null
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:05:22.115 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:05:22.115 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=182, W=181, U=0, E=0)
+2023-09-11 14:05:22.118 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:05:22.120 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:05:22.120 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:05:22.190 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:05:22.213 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:05:22.213 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 14:07:31.019 INFO  <main> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 14:07:31.075 INFO  <init of Table output.0 (Thread-144)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 14:07:31.247 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 14:07:31.285 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:07:31.374 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:07:31.381 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 14:07:31.382 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM null
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:07:31.385 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:07:31.388 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:07:31.390 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:07:31.551 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:07:31.596 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:07:31.596 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 14:07:57.203 INFO  <main> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 14:07:57.247 INFO  <init of Table output.0 (Thread-155)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 14:07:57.375 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 14:07:57.376 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM null
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:07:57.380 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:07:57.381 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:07:57.381 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 14:07:57.381 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=2826, W=2825, U=0, E=0)
+2023-09-11 14:07:57.381 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:07:57.382 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 14:07:57.467 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:07:57.470 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:07:57.565 ERROR <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:15:31.986 INFO  <Thread-174> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 14:15:32.010 INFO  <init of Table output.0 (Thread-178)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 14:15:32.018 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 14:15:32.043 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Uventet feil
+2023-09-11 14:15:32.044 ERROR <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM cofeemerchant_Spoon_dw.dim_time
+
+Table 'cofeemerchant_spoon_dw.dim_time' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'cofeemerchant_spoon_dw.dim_time' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:15:32.045 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=715, W=714, U=0, E=0)
+2023-09-11 14:15:32.048 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:15:32.048 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:15:32.048 WARN  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-11 14:15:32.055 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:15:32.147 ERROR <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:15:32.158 ERROR <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:15:32.188 ERROR <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-11 14:21:00.492 INFO  <Thread-187> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-11 14:21:00.517 INFO  <init of Table output.0 (Thread-191)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [MySQLconnect] (commit=1000)
+2023-09-11 14:21:00.527 INFO  <Transformation 3 - Generate rows Dim_time> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 14:21:00.553 INFO  <Transformation 3 - Add sequence> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:21:00.618 INFO  <Transformation 3 - Calculator> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:21:02.381 INFO  <Transformation 3 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=3660, R=3660, W=3660, U=0, E=0)
+2023-09-11 14:29:51.400 INFO  <Thread-201> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:29:51.415 INFO  <init of Table output.0 (Thread-203)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:29:51.421 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:29:51.466 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:29:51.559 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:29:51.559 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:29:51.562 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:29:51.563 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:29:51.563 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:29:51.594 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:29:51.613 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:29:51.613 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:30:36.997 INFO  <Thread-209> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:30:37.018 INFO  <init of Table output.0 (Thread-211)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:30:37.026 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:30:37.041 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:30:37.042 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Uventet feil
+2023-09-11 14:30:37.043 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM sampleData.dim_sales
+
+Table 'sampledata.dim_sales' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sampledata.dim_sales' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:30:37.046 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:30:37.048 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:37.048 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:37.111 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:37.130 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:30:37.131 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:30:51.824 INFO  <Thread-217> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:30:51.839 INFO  <init of Table output.0 (Thread-219)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:30:51.844 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:30:51.895 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:30:51.977 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:30:51.978 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:30:51.979 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:30:51.981 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:51.981 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:52.011 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:30:52.030 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:30:52.031 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:33:35.561 INFO  <Thread-225> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:33:35.583 INFO  <init of Table output.0 (Thread-227)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:33:35.588 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:33:35.628 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:33:35.693 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:33:35.694 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:33:35.697 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:33:35.698 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:33:35.698 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:33:35.731 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:33:35.754 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:33:35.755 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:34:25.559 INFO  <Thread-234> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:34:25.579 INFO  <init of Table output.0 (Thread-236)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:34:25.585 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:34:25.598 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:34:25.659 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:34:25.660 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:34:25.662 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:34:25.663 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:34:25.664 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:34:25.694 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:34:25.712 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:34:25.713 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:35:38.682 INFO  <Thread-242> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:35:38.699 INFO  <init of Table output.0 (Thread-244)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:35:38.705 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:35:38.717 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:35:38.781 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:35:38.781 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:35:38.783 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:35:38.784 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:35:38.785 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:35:38.815 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:35:38.832 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:35:38.832 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:38:35.457 INFO  <Thread-251> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-11 14:38:35.480 INFO  <init of Table output.0 (Thread-253)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Testing] (commit=1000)
+2023-09-11 14:38:35.488 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:/Users/roman/OneDrive/Documents/GitHub/USN/BID3000/3Forelesning/pdi-ce-9.4.0.0-343/data-integration/samples/transformations/files/sales_data.csv'
+2023-09-11 14:38:35.501 INFO  <Transformation 2 - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:38:35.577 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:38:35.578 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [sales] with values: [10283], [25], [100], [6], [2992], [8/20/2004 0:00], [Shipped], [3], [8], [2004], [Classic Cars], [136], [S10_4757], [Royal Canadian Collectables, Ltd.], [(604) 555-4555], [23 Tsawassen Blvd.], [null], [Tsawassen], [BC], [T2F 8M4], [Canada], [NA], [Lincoln], [Elizabeth]
+
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'CUSTOMERNAME' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:38:35.580 INFO  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=120, R=121, W=120, U=0, E=1)
+2023-09-11 14:38:35.581 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:38:35.581 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:38:35.611 ERROR <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-11 14:38:35.628 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:38:35.629 WARN  <Transformation 2 - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-11 14:42:22.887 INFO  <ModalContext> [/Transformation 4.ktr]  Dispatching started for transformation [/Transformation 4]
+2023-09-11 14:42:22.893 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Header row skipped in file 'C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 14:42:23.393 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 14:42:23.393 INFO  </Transformation 4 - dummy> [/Transformation 4.ktr]  Finished processing (I=0, O=0, R=684, W=683, U=0, E=0)
+2023-09-11 14:42:49.112 INFO  <ModalContext> [/Transformation 4.ktr]  Dispatching started for transformation [/Transformation 4]
+2023-09-11 14:42:49.122 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Header row skipped in file 'C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 14:42:49.622 INFO  </Transformation 4 - dummy> [/Transformation 4.ktr]  Finished processing (I=0, O=0, R=809, W=808, U=0, E=0)
+2023-09-11 14:42:49.624 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 14:43:20.990 INFO  <ModalContext> [/Transformation 4.ktr]  Dispatching started for transformation [/Transformation 4]
+2023-09-11 14:43:20.997 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Header row skipped in file 'C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 14:43:21.498 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 14:43:21.498 INFO  </Transformation 4 - dummy> [/Transformation 4.ktr]  Finished processing (I=0, O=0, R=818, W=817, U=0, E=0)
+2023-09-11 14:43:51.511 INFO  <ModalContext> [/Transformation 4.ktr]  Dispatching started for transformation [/Transformation 4]
+2023-09-11 14:43:51.528 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Header row skipped in file 'C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 14:43:52.021 INFO  </Transformation 4 - dummy> [/Transformation 4.ktr]  Finished processing (I=0, O=0, R=899, W=898, U=0, E=0)
+2023-09-11 14:43:52.022 INFO  </Transformation 4 - CSV file input> [/Transformation 4.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 14:46:14.613 INFO  <Thread-288> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\sampledataTest.ktr]  Dispatching started for transformation [sampledataTest]
+2023-09-11 14:46:14.632 INFO  <init of Table output.0 (Thread-290)> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\sampledataTest.ktr]  Connected to database [testing] (commit=1000)
+2023-09-11 14:46:14.638 INFO  <sampledataTest - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\sampledataTest.ktr]  Header row skipped in file 'C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 14:46:14.653 INFO  <sampledataTest - CSV file input> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\sampledataTest.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-11 14:46:15.685 INFO  <sampledataTest - Table output> [C:\Users\roman\OneDrive\Documents\GitHub\USN\BID3000\3Forelesning\pdi-ce-9.4.0.0-343\sampledataTest.ktr]  Finished processing (I=0, O=2823, R=2823, W=2823, U=0, E=0)
