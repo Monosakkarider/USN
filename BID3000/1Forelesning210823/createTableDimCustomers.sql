@@ -1,3 +1,5 @@
+USE cofeemerchant_dw;
+
 CREATE TABLE dim_customers (
 	customer_sk INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     customerID INT,
