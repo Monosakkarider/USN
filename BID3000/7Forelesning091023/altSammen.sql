@@ -4,5 +4,6 @@ SELECT ItemBrand, TimeMonth, SUM(SalesDollar) AS SUMSales,
     RANK() OVER(PARTITION BY TimeMonth
     	ORDER BY SUM(SalesDollar)DESC) AS RankSales
 FROM SSSales, SSTimeDim, SSItem
-WHERE SSSales.TimeNo = SSTimeDim.TimeNo AND SSItem.ItemID = SSSales.ItemID AND TimeYear = 2014
+WHERE SSSales.TimeNo = SSTimeDim.TimeNo 
+	AND SSItem.ItemID = SSSales.ItemID AND TimeYear = 2014
 GROUP BY ItemBrand, TimeMonth;
