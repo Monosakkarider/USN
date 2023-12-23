@@ -1,0 +1,22 @@
+2023-12-06 12:54:50.539 INFO  <Thread-40> [C:\Users\Roman\Desktop\2_11.ktr]  Dispatching started for transformation [2_11]
+2023-12-06 12:54:50.892 INFO  <init of Table output Employee.0 (Thread-47)> [C:\Users\Roman\Desktop\2_11.ktr]  Connected to database [spoonDWConnection] (commit=1000)
+2023-12-06 12:54:51.223 INFO  <2_11 - Table input offices> [C:\Users\Roman\Desktop\2_11.ktr]  Finished reading query, closing connection
+2023-12-06 12:54:51.230 INFO  <2_11 - Table input employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished reading query, closing connection
+2023-12-06 12:54:51.234 INFO  <2_11 - Table input employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=23, O=0, R=0, W=23, U=0, E=0)
+2023-12-06 12:54:51.234 INFO  <2_11 - Table input offices> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2023-12-06 12:54:51.237 INFO  <2_11 - Sort rows> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023-12-06 12:54:51.239 INFO  <2_11 - Sort rows 2> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2023-12-06 12:54:51.547 INFO  <2_11 - Merge join> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=30, W=23, U=0, E=0)
+2023-12-06 12:54:51.552 INFO  <2_11 - Select values> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023-12-06 12:54:51.568 INFO  <2_11 - Table output Employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=23, R=23, W=23, U=0, E=0)
+2023-12-06 12:56:34.538 INFO  <Thread-60> [C:\Users\Roman\Desktop\2_11.ktr]  Dispatching started for transformation [2_11]
+2023-12-06 12:56:34.603 INFO  <init of Table output Employee.0 (Thread-67)> [C:\Users\Roman\Desktop\2_11.ktr]  Connected to database [spoonDWConnection] (commit=1000)
+2023-12-06 12:56:34.651 INFO  <2_11 - Table input employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished reading query, closing connection
+2023-12-06 12:56:34.654 INFO  <2_11 - Table input employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=23, O=0, R=0, W=23, U=0, E=0)
+2023-12-06 12:56:34.656 INFO  <2_11 - Table input offices> [C:\Users\Roman\Desktop\2_11.ktr]  Finished reading query, closing connection
+2023-12-06 12:56:34.659 INFO  <2_11 - Table input offices> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2023-12-06 12:56:34.690 INFO  <2_11 - Sort rows 2> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2023-12-06 12:56:34.691 INFO  <2_11 - Sort rows> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023-12-06 12:56:35.001 INFO  <2_11 - Merge join> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=30, W=23, U=0, E=0)
+2023-12-06 12:56:35.005 INFO  <2_11 - Select values> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023-12-06 12:56:35.063 INFO  <2_11 - Table output Employee> [C:\Users\Roman\Desktop\2_11.ktr]  Finished processing (I=0, O=23, R=23, W=23, U=0, E=0)

@@ -1,0 +1,34 @@
+Graphics2D from BufferedImage lacks BUFFERED_IMAGE hint
+2023/12/06 12:54:48 - Spoon - Save file as...
+2023/12/06 12:54:49 - Spoon - Transformation opened.
+2023/12/06 12:54:49 - Spoon - Launching transformation [2_11]...
+2023/12/06 12:54:49 - Spoon - Started the transformation execution.
+2023/12/06 12:54:50 - 2_11 - Dispatching started for transformation [2_11]
+2023/12/06 12:54:50 - Table output Employee.0 - Connected to database [spoonDWConnection] (commit=1000)
+2023/12/06 12:54:51 - Table input offices.0 - Finished reading query, closing connection
+2023/12/06 12:54:51 - Table input employee.0 - Finished reading query, closing connection
+2023/12/06 12:54:51 - Table input employee.0 - Finished processing (I=23, O=0, R=0, W=23, U=0, E=0)
+2023/12/06 12:54:51 - Table input offices.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2023/12/06 12:54:51 - Sort rows.0 - Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023/12/06 12:54:51 - Sort rows 2.0 - Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2023/12/06 12:54:51 - Merge join.0 - Finished processing (I=0, O=0, R=30, W=23, U=0, E=0)
+2023/12/06 12:54:51 - Select values.0 - Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023/12/06 12:54:51 - Table output Employee.0 - Finished processing (I=0, O=23, R=23, W=23, U=0, E=0)
+2023/12/06 12:54:51 - Spoon - The transformation has finished!!
+2023/12/06 12:56:34 - Spoon - Transformation opened.
+2023/12/06 12:56:34 - Spoon - Launching transformation [2_11]...
+2023/12/06 12:56:34 - Spoon - Started the transformation execution.
+2023/12/06 12:56:34 - 2_11 - Dispatching started for transformation [2_11]
+2023/12/06 12:56:34 - Table output Employee.0 - Connected to database [spoonDWConnection] (commit=1000)
+2023/12/06 12:56:34 - Table input employee.0 - Finished reading query, closing connection
+2023/12/06 12:56:34 - Table input employee.0 - Finished processing (I=23, O=0, R=0, W=23, U=0, E=0)
+2023/12/06 12:56:34 - Table input offices.0 - Finished reading query, closing connection
+2023/12/06 12:56:34 - Table input offices.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2023/12/06 12:56:34 - Sort rows 2.0 - Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2023/12/06 12:56:34 - Sort rows.0 - Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023/12/06 12:56:35 - Merge join.0 - Finished processing (I=0, O=0, R=30, W=23, U=0, E=0)
+2023/12/06 12:56:35 - Select values.0 - Finished processing (I=0, O=0, R=23, W=23, U=0, E=0)
+2023/12/06 12:56:35 - Table output Employee.0 - Finished processing (I=0, O=23, R=23, W=23, U=0, E=0)
+2023/12/06 12:56:35 - Spoon - The transformation has finished!!
+2023/12/07 13:13:30 - Spoon - Spoon  has ended.
+stopping

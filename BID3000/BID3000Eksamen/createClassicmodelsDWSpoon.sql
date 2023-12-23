@@ -1,0 +1,2 @@
+CREATE DATABASE classicmodels_spoon_dw;
+USE classicmodels_spoon_dw;
