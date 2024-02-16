@@ -5,7 +5,8 @@
 #time=3600 sek, 60 min
 
 #Ber brukeren oppgi antall sekunder
-ant_sek=int(input('Oppgi antall sekunder som skal konverteres: ')) #Her må vi bruke "int" for at python skal kunne kalkulere med tallet "sekunder"
+ant_sek=int(input('Oppgi antall sekunder som skal konverteres: ')) 
+#Her må vi bruke "int" for at python skal kunne kalkulere med tallet "sekunder"
 
 #Beregner antall timer
 ant_tim=ant_sek//3600 #Eks.3666//3600= 1 time og 66 sek

@@ -28,5 +28,5 @@ else:
     storst=tall3
     
 
-print('Det støreste tallet i denne tallrekken er:',storst)
+print('Det største tallet i denne tallrekken er:',storst)
 
